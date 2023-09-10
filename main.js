@@ -1,6 +1,5 @@
 
 const preloader = document.querySelector('[data-preloader]');
-
 window.addEventListener('load', () => {
     preloader.classList.add('remove');
 })
@@ -28,7 +27,6 @@ const toggleNav = function () {
 }
 
 addEventOnElements(navTogglers, 'click', toggleNav);
-
 
 // HEADER //
 
