@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en">+
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <title>Full js travel website</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -40,7 +40,7 @@
             <nav class="navbar" data-navbar>
         
                 <div class="navbar-top">
-                    <a href="#" class="logo">
+                    <a href="#top" class="logo">
                         <img src="assets/images/logo.svg" width="187" height="38"
                         alt="logo">
                     </a>
@@ -53,19 +53,19 @@
                 <ul class="navbar-list">
         
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link active">Home</a>
+                        <a href="#top" class="navbar-link">Home</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">About</a>
+                        <a href="#service" class="navbar-link">Services</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">Services</a>
+                        <a href="#destination" class="navbar-link">Destination</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">Pricing</a>
+                        <a href="#about" class="navbar-link">About</a>
                     </li>
                     <li class="navbar-item">
-                        <a href="#" class="navbar-link">Contact</a>
+                        <a href="#contact" class="navbar-link">Contact</a>
                     </li>
         
         
@@ -82,7 +82,6 @@
             <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler> 
                 <ion-icon name="menu-outline" aria-hidden="true">menu</ion-icon>
             </button>
-
             <div class="overlay" data-overlay data-nav-toggler></div>
 
         </div>
@@ -145,6 +144,7 @@
                          height="735" alt="hero banner" class="w-100">
                     </figure>
                 </div>
+                <span id="service"></span>
             </section>
             
             <section class="section service" aria-label="service">
@@ -207,6 +207,7 @@
                         </p>
                     </div>
                 </div>
+                <span id="destination"></span>
             </section>
 
 
@@ -465,6 +466,7 @@
 
                     <a href="#" class="btn btn-primary">View All Destination</a>
                 </div>
+                <span id="about"></span>
             </section>
 
 
@@ -644,7 +646,7 @@
 
     <!-- FOOTER  -->
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="container">
 
             <div class="footer-top">
